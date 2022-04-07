@@ -94,3 +94,13 @@ body {
       display: block;
     }
   }
+
+  .light-mode {
+    background: lightgreen;
+    color: black;
+  }
+
+  .dark-mode {
+    background: grey;
+    color: lightgreen;
+  }
