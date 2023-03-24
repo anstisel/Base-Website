@@ -1,3 +1,5 @@
+
+
 .hero-text {
     text-align:center;
     position: absolute;
@@ -44,16 +46,20 @@ body {
     width: 33.3%;
     margin-bottom: 16px;
     padding: 0 8px;
+    display: table-cell;
   }
   
   .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+
   }
   
   .about-section {
     padding: 50px;
-    text-align: center;
+    text-align: justify;
     background-color: #474e5d;
     color: white;
   }
@@ -88,10 +94,11 @@ body {
     background-color: #555;
   }
   
-  @media screen and (max-width: 650px) {
+  @media screen and (max-width: 600px) {
     .column {
       width: 100%;
       display: block;
+      margin-bottom: 20px;
     }
   }
 
@@ -101,6 +108,14 @@ body {
   }
 
   .dark-mode {
-    background: grey;
-    color: lightgreen;
+    background: rgb(28, 29, 90);
+    color: rgb(154, 163, 191);
   }
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  padding: 10px;;
+}

@@ -17,13 +17,8 @@ $(window).on( 'load', () => {
         } else {
             bclick.innerText = 'Make it dark mode'
         }
-    
+
     });
-
     
-
-
-
-
 }); 
 
